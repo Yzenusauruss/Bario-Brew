@@ -5,7 +5,7 @@ import logo from '../assets/logo.png';
 
 const Header = () => {
   return (
-    <header className='flex justify-between items-center h-[157px] w-full border-2 p-20 border-none'>
+    <header className='flex justify-between items-center h-[157px] w-full p-20 border-b'>
       <div className='flex justify-center items-center gap-30'>
         <img src={logo} alt="Bario Brew Logo" />
         <div className='flex gap-10'>
@@ -23,5 +23,4 @@ const Header = () => {
     </header>
   )
 }
-
 export default Header
